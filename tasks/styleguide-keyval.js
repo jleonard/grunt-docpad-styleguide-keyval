@@ -32,7 +32,7 @@ module.exports = function(grunt) {
           var arr = file.split(";");
           var len = arr.length;
           
-          var html = "<table class='table table-condensed'>";
+          var html = "<table class='table table-condensed table-striped'>";
           for (var i = 0; i < len -1; i++) {
             var key_val = arr[i].split(":");
             grunt.log.write(key_val[0]);
@@ -47,7 +47,7 @@ module.exports = function(grunt) {
 
     function makeChip(arr){
       var val = arr[1];
-      if(val.indexOf("@") == 0){
+      if(val.indexOf("@") == 0 || val.indexOf("(") == 0){
         return "";
       }
       var html = "<tr><td>"+arr[0]+"</td>";
