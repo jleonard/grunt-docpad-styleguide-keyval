@@ -1,2 +1,2 @@
-grunt-docpad-styleguide-keyval
-==============================
+grunt-docpad-styleguide-color
+=============================

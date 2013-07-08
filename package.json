@@ -1,0 +1,39 @@
+{
+  "name": "grunt-docpad-styleguide-keyval",
+  "description": "The best grunt plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jleonard/grunt-docpad-styleguide-keyval",
+  "author": {
+    "name": "John Leonard",
+    "url": "http://github.com/jleonard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jleonard/grunt-docpad-styleguide-keyval.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jleonard/grunt-docpad-styleguide-keyval/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jleonard/grunt-docpad-styleguide-keyval/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-contrib-clean": "~0.4.0a",
+    "grunt-contrib-nodeunit": "~0.1.0",
+    "grunt": "~0.4.0rc2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
