@@ -46,8 +46,8 @@ module.exports = function(grunt) {
     });
 
     function makeChip(arr){
-      var html = "<td>"+arr[0]+"</td>";
-      html += "<td>"+arr[1]+"</td>";
+      var html = "<tr><td>"+arr[0]+"</td>";
+      html += "<td>"+arr[1]+"</td></tr>";
       return html;
     }
 
