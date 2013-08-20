@@ -35,7 +35,7 @@ module.exports = function(grunt) {
           var html = "<table class='table table-condensed table-striped'>";
           for (var i = 0; i < len -1; i++) {
             var key_val = arr[i].split(":");
-            grunt.log.write(key_val[0]);
+            //grunt.log.write(key_val[0]);
             html += makeChip(key_val);
           }
           html += "</table>";
